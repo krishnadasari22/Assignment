@@ -1,0 +1,29 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title>Insert title here</title>  
+</head>  
+<body>  
+  
+<h1>Add New Book</h1>  
+<form action="SaveServlet" method="post">  
+<table>  
+<tr><td>Book Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Author:</td><td><input type="text" name="author"/></td></tr>  
+<tr><td>Publisher:</td><td><input type="text" name="publisher"/></td></tr>  
+<tr><td>Status:</td><td>  
+<select name="Status" style="width:150px">  
+<option>Assigned</option>  
+<option>Availability</option>  
+<option>Recovered</option>    
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Save Book"/></td></tr>  
+</table>  
+</form>  
+<br/>  
+<a href="ViewServlet">view books</a>  
+  
+</body>  
+</html>
